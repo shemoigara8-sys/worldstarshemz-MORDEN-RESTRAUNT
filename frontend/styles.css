@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu, .order-form {
+  padding: 2rem;
+}
+
+.menu ul, .order-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li, .order-form li {
+  background: white;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.order-form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.order-form button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color: #e5533d;
+}
